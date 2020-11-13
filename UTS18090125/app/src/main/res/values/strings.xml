@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">UTS18090125</string>
+
+    <string name="berita_name">Berita</string>
+    <string name="description">Deskripsi</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">with CardView</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="todo">TODO</string>
+    <string-array name="data_name">
+        <item>Ini Cara Peroleh Subsidi Dana dari Beasiswa Jadi PNS</item>
+        <item>Sepi Peminat, 2 SD Negeri di Pelosok Jember Ditutup</item>
+        <item>Ruang guru mengejar ketinggalan pendidikan Indonesia</item>
+
+    </string-array>
+    <string-array name="data_description">
+        <item>KOMPAS.com – Tahun ini menjadi pertama kalinya organisasi pemuda Jadi PNS memberikan beasiswa bagi siswa SMA/SMK/MA/Sederajat dalam bentuk subsidi dana pendidikan.</item>
+        <item>KOMPAS.com – Sebanyak dua sekolah dasar negeri (SDN) di Kecamatan Tempurejo dan Silo ditutup Dinas Pendidikan Jember.</item>
+        <item>KOMPAS.com - Pendidikan di Indonesia sudah tertinggal jauh. Setidaknya butuh waktu hingga 128 tahun dalam mengejar ketertinggalan pendidikan tersebut. </item>
+    </string-array>
+    <string-array name="data_photo">
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>
