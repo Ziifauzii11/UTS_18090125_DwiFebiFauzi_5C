@@ -78,10 +78,10 @@ class BeritaActivity : AppCompatActivity() {
 
     private fun showRecyclerList(){
         rv_berita.layoutManager = LinearLayoutManager(this)
-        val listHeroAdapter = ListBeritaAdapter(list)
-        rv_berita.adapter = listHeroAdapter
+        val listBeritaAdapter = ListBeritaAdapter(list)
+        rv_berita.adapter = listBeritaAdapter
 
-        listHeroAdapter.setOnItemClickCallback(object : ListBeritaAdapter.OnItemClickCallback{
+        listBeritaAdapter.setOnItemClickCallback(object : ListBeritaAdapter.OnItemClickCallback{
             override fun onItemClicked(data: Berita) {
                 showSelectedBerita(data)
             }
@@ -90,10 +90,10 @@ class BeritaActivity : AppCompatActivity() {
 
     private fun showRecyclerGrid(){
         rv_berita.layoutManager = GridLayoutManager(this, 2)
-        val gridHeroAdapter = GridBeritaAdapter(list)
-        rv_berita.adapter = gridHeroAdapter
+        val gridBeritaAdapter = GridBeritaAdapter(list)
+        rv_berita.adapter = gridBeritaAdapter
 
-        gridHeroAdapter.setOnItemClickCallback(object : GridBeritaAdapter.OnItemClickCallback{
+        gridBeritaAdapter.setOnItemClickCallback(object : GridBeritaAdapter.OnItemClickCallback{
             override fun onItemClicked(data: Berita) {
                 showSelectedBerita(data)
             }
@@ -102,8 +102,8 @@ class BeritaActivity : AppCompatActivity() {
 
     private fun showRecyclerCardView(){
         rv_berita.layoutManager = LinearLayoutManager(this)
-        val cardViewHeroAdapter = CardViewBeritaAdapter(list)
-        rv_berita.adapter = cardViewHeroAdapter
+        val cardViewBeritaAdapter = CardViewBeritaAdapter(list)
+        rv_berita.adapter = cardViewBeritaAdapter
     }
 
     private fun setActionBarTitle(title: String?){
